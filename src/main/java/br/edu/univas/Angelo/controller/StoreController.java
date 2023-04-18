@@ -1,4 +1,4 @@
-package controller;
+package br.edu.univas.Angelo.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -7,7 +7,6 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -17,10 +16,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import dto.StoreDto;
-import entity.Store;
+import br.edu.univas.Angelo.dto.StoreDto;
+import br.edu.univas.Angelo.entity.Store;
+import br.edu.univas.Angelo.service.StoreService;
 import jakarta.validation.Valid;
-import service.StoreService;
 
 @RestController
 @RequestMapping("/store")

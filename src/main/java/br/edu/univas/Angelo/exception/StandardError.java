@@ -1,4 +1,4 @@
-package exception;
+package br.edu.univas.Angelo.exception;
 
 import java.sql.Date;
 

@@ -1,4 +1,4 @@
-package exception;
+package br.edu.univas.Angelo.exception;
 
 public class StoreException extends RuntimeException {
 	

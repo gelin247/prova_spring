@@ -1,16 +1,15 @@
-package service;
+package br.edu.univas.Angelo.service;
 
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
-import entity.Store;
-import jakarta.transaction.Transactional;
 
 import java.util.List;
 import java.util.Optional;
 
-import repository.StoreRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import br.edu.univas.Angelo.entity.Store;
+import br.edu.univas.Angelo.repository.StoreRepository;
+import jakarta.transaction.Transactional;
 
 @Service
 public class StoreService {

@@ -1,4 +1,4 @@
-package dto;
+package br.edu.univas.Angelo.dto;
 
 import lombok.Data;
 
